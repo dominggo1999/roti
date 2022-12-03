@@ -2,7 +2,8 @@
   "name": "roti",
   "version": "0.1.61",
   "scripts": {
-    "build": "bun react-scripts build",
+    "build:prod": "react-scripts build",
+    "build:local": "bun react-scripts build",
     "preview": "serve -s build"
   },
   "dependencies": {
